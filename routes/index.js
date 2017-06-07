@@ -47,6 +47,7 @@ router.get('/author', function (req, res, next) {
 });
 
 
+<<<<<<< HEAD
 // Autoload de rutas que usen :quizId
 router.param('quizId', quizController.load);
 router.param('userId', userController.load);
@@ -132,4 +133,6 @@ router.delete('/quizzes/:quizId(\\d+)/tips/:tipId(\\d+)',
     tipController.destroy);
 
 
+=======
+>>>>>>> practica51
 module.exports = router;
